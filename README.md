@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_NODE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node@esm/index.mjs';
+import IS_NODE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node@v0.1.1-esm/index.mjs';
 ```
 
 #### IS_NODE
@@ -80,7 +80,7 @@ var bool = IS_NODE;
 <body>
 <script type="module">
 
-import IS_NODE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node@esm/index.mjs';
+import IS_NODE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node@v0.1.1-esm/index.mjs';
 
 console.log( IS_NODE );
 // => <boolean>
