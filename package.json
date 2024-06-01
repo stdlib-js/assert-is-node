@@ -42,7 +42,8 @@
     "@stdlib/assert-is-plain-object": "^0.2.1",
     "@stdlib/assert-is-string": "^0.2.1",
     "@stdlib/utils-global": "^0.2.1",
-    "@stdlib/utils-native-class": "^0.2.1"
+    "@stdlib/utils-native-class": "^0.2.1",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.1"
   },
   "devDependencies": {
     "proxyquire": "^2.0.0",
