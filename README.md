@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import IS_NODE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node@deno/mod.js';
+import IS_NODE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node@v0.2.2-deno/mod.js';
 ```
 
 #### IS_NODE
@@ -75,7 +75,7 @@ var bool = IS_NODE;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import IS_NODE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node@deno/mod.js';
+import IS_NODE from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-node@v0.2.2-deno/mod.js';
 
 console.log( IS_NODE );
 // => <boolean>
