@@ -1,10 +1,10 @@
-"use strict";var a=function(e,o){return function(){return o||e((o={exports:{}}).exports,o),o.exports}};var s=a(function(w,i){
-var g=Object.prototype.toString;function j(e){return g.call(e)}i.exports=j
-});var c=a(function(C,l){
-var n;function q(){var e="";return e+="try {",e+="return this === global;",e+="} catch ( err ) {",e+="return false;",e+="}",new Function(e)()}n=q();l.exports=n
-});var f=a(function(E,p){
-var r=require("process"),S=require('@stdlib/utils-global/dist'),u=require('@stdlib/utils-native-class/dist'),b=require('@stdlib/assert-is-plain-object/dist'),v=require('@stdlib/assert-is-string/dist').isPrimitive,y=s(),d=c(),t=S(),m=/node|io\.js/;function x(){return typeof global=="object"&&global===t&&t===t.global&&(u(t)==="[object global]"||u(t)==="[object Object]")&&d===!0&&typeof require=="function"&&typeof r=="object"&&y(r)==="[object process]"&&b(r.versions)&&v(r.versions.node)&&(typeof r.release=="undefined"||b(r.release)&&v(r.release.name)&&m.test(r.release.name))}p.exports=x
-});var G=f(),O=G();module.exports=O;
+"use strict";var a=function(e,t){return function(){try{return t||e((t={exports:{}}).exports,t),t.exports}catch(g){throw (t=0, g)}};};var s=a(function(C,i){
+var j=Object.prototype.toString;function q(e){return j.call(e)}i.exports=q
+});var c=a(function(E,l){
+var n;function S(){var e="";return e+="try {",e+="return this === global;",e+="} catch ( err ) {",e+="return false;",e+="}",new Function(e)()}n=S();l.exports=n
+});var f=a(function(F,p){
+var r=require("process"),y=require('@stdlib/utils-global/dist'),u=require('@stdlib/utils-native-class/dist'),b=require('@stdlib/assert-is-plain-object/dist'),v=require('@stdlib/assert-is-string/dist').isPrimitive,d=s(),m=c(),o=y(),x=/node|io\.js/;function G(){return typeof global=="object"&&global===o&&o===o.global&&(u(o)==="[object global]"||u(o)==="[object Object]")&&m===!0&&typeof require=="function"&&typeof r=="object"&&d(r)==="[object process]"&&b(r.versions)&&v(r.versions.node)&&(typeof r.release=="undefined"||b(r.release)&&v(r.release.name)&&x.test(r.release.name))}p.exports=G
+});var O=f(),h=O();module.exports=h;
 /** @license Apache-2.0 */
 /** @license Apache-2.0 */
 //# sourceMappingURL=index.js.map
